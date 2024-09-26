@@ -1,37 +1,41 @@
-print(" ")
-#Practica 8  donde usamos listas
-thislist = ["apple", "banana", "cherry"]
-print(thislist)
-
-#cuando usamos (len( )) te despliega
-#el numero de elementos de la lista
-thislist2 = ["apple", "banana", "cherry"]
-print(len(thislist))
-
-
-#Separa con un espacio
-print(" ")
-#Da valores a varias listas
-list1 = ["apple", "banana", "cherry"]
-list2 = [1, 5, 7, 9, 3]
-list3 = [True, False, False]
-list4 = ["abc", 34, True, 40, "male"]
-
-#Muestra los miembros de cada lista
-print(list1)
-print(list2)
-print(list3)
-print(list4)
-
-
+# Ejemplo de uso de listas en Python
 print(" ")
 
-thislist = ["apple", "banana", "cherry"]
+# Creamos una lista de animales
+animales = ["perro", "gato", "elefante"]
+print(animales)
 
-#Muestra el miembro 1 y comienza en Cero 0
-print(thislist[1])
+# Usamos len() para obtener el número de elementos en la lista
+print("Número de elementos en la lista de animales:", len(animales))
 
-#Muestra el ultimo miembro de la lisa
-print(thislist[-1])
+# Espacio para mayor claridad
+print(" ")
 
+# Creamos varias listas con diferentes tipos de elementos
+lista_animales = ["perro", "gato", "elefante"]
+lista_edades = [2, 5, 10, 3]
+lista_respuestas = [True, False, True]
+lista_variedad = ["rojo", 42, False, 3.14, "femenino"]
+
+# Mostramos el contenido de cada lista
+print("Lista de animales:", lista_animales)
+print("Lista de edades:", lista_edades)
+print("Lista de respuestas:", lista_respuestas)
+print("Lista variada:", lista_variedad)
+
+print(" ")
+
+# Accedemos a un elemento específico de la lista de animales
+# Recordemos que la indexación comienza en 0
+print("Segundo elemento de la lista de animales:", lista_animales[1])
+
+# Accedemos al último elemento de la lista
+print("Último elemento de la lista de animales:", lista_animales[-1])
+
+# Accedemos a un rango de elementos de la lista
+# El rango 1:4 incluye los elementos en las posiciones 1, 2 y 3
+lista_animales_completa = ["perro", "gato", "elefante", "jirafa", "león", "tigre", "osos"]
+print("Elemento en la posición -5:", lista_animales_completa[-5])
+
+# Espacio final para separar la salida
 print(" ")
